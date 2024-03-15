@@ -145,5 +145,6 @@ def demo(data_dir):
         vis_grasps(gg, cloud)
 
 if __name__=='__main__':
-    data_dir = '/home/wenhai/data/articulated_data/partmanip/handle'
+    # data_dir = '/home/wenhai/data/articulated_data/partmanip/handle'
+    data_dir = 'data'
     demo(data_dir)
